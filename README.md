@@ -1,4 +1,8 @@
 # cakiya's hirakana tester
+It give you romaji
+You write it in hiragana/katakana
+
+
 a basic learning tool for hiragana/katakana that shows the romaji of a hirakana for you to write down on a paper as practice
 
 ONLY INCLUDES BASE HIRAGANA/KATAKANA (no diacritics aka ゛and ゜)
