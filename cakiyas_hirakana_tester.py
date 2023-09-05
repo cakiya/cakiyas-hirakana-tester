@@ -37,7 +37,7 @@ def test_one_hirakana():
     chooses and removes a random hirakana from
     the hirakana list
     """
-    random_hirakana_in_list = random.randint(0, len(test_list))
+    random_hirakana_in_list = random.randint(0, len(test_list)-1)
     return test_list.pop(random_hirakana_in_list)
 
 def main():
