@@ -15,3 +15,4 @@ To-Do/future features to add:
 - Diactrics option (゛and ゜) (the list includes kakikukeko, but not gagigugego)
 - combos or whatever they're called (like きゃ - kya; the ones with 2 hirakanas)
 - try again feature because the script just ends after 1 test
+- add ui
