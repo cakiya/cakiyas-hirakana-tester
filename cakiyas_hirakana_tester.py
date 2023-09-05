@@ -29,7 +29,7 @@ print(GLOBALVAR_HIRAKANA_ROMAJI)
 def test_loop():
     hirakana_count = len(GLOBALVAR_HIRAKANA_ROMAJI)
     for i in range(hirakana_count):
-        print(test_one_hirakana())
+        print("Hirakana", i+1, ":", test_one_hirakana())
         input("Press enter to Proceed")
 
 def test_one_hirakana():
