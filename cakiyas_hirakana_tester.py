@@ -2,10 +2,9 @@
 This program picks a random hirakana romaji and displays
 it to the user (so they can write down the corresponding
 hiragana and katakana as practice) and keeps on going until
-every hirakana romaji has been tested; then it crashes becasue
-i dont know im too lazy to implement not crashing and re-usability
+every hirakana romaji has been tested; then it exits once the
+test is done, im too lazy to implement retry feature
 """
-
 
 import random
 
