@@ -1,23 +1,30 @@
 # cakiya's hirakana tester
-It give you romaji
+A basic learning tool for Hiragana/Katakana* that shows the Romaji of a random Hirakana character for you to write down on a paper as practice.
+*ONLY INCLUDES BASE HIRAGANA/KATAKANA (no diacritics aka ゛and ゜ or combos like きゃ - kya)
 
-You write it in hiragana/katakana
+The Hirakana is chosen randomly, so each test will be in a different order.
 
+_**This is a python script.**_
 
-a basic learning tool for hiragana/katakana that shows the romaji of a hirakana for you to write down on a paper as practice
+# What does this program do?
+The program will give you the Romaji of a Hirakana character for you to write down on a piece of paper.
 
-ONLY INCLUDES BASE HIRAGANA/KATAKANA (no diacritics aka ゛and ゜)
+Once you have written it down, press ENTER and the test will show you the Hiragana and Katakana of that character, and move on to the next character.
 
-HOW TO USE:
+After you get through all 46 Hirakana, the test will ask if you want to try again.
+
+Simply close the window to exit.
+
+# How to use
 
 1. get python
 2. get paper and pencil
 3. run the script
-4. follow the instructions
+4. follow the instructionsz
 5. enjoy your hirakana test
 
-To-Do/future features to add:
+# To-Do/future features to add:
 - Diactrics option (゛and ゜) (the list includes kakikukeko, but not gagigugego)
 - combos or whatever they're called (like きゃ - kya; the ones with 2 hirakanas)
-- try again feature because the script just ends after 1 test
 - add ui
+- perhaps 2 modes, current mode (flashcard mode) and a new tester mode that you can manually input if you got right or wrong then calculates score and tells you which ones you missed.
