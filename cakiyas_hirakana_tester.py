@@ -84,13 +84,9 @@ def test_loop():
     print("====================================")
     for i in range(Hirakana_count):
         hirakana_tuple = get_hirakana() # (Romaji, Hiragana, Katakana)
-        print("Hirakana ", i+1, ": ", hirakana_tuple[0], sep='', end='')
+        print("Hirakana ", i+1, ": ", hirakana_tuple[0], sep='', end=' ')
         input('')[: -1]
         print('  (h) (k)  ', hirakana_tuple[1], ' ', hirakana_tuple[2])
-        
-       
-        
-        
 
 def get_hirakana():
     """
@@ -108,9 +104,14 @@ def get_hirakana():
     return chosen_romaji, chosen_hiragana, chosen_katakana
 
 def main():
-    fill_lists()
-    print("BEGINNING TEST")
-    test_loop()
+    while (True):
+        fill_lists()
+        print("BEGINNING TEST")
+        test_loop()
+        print("====================================")
+        print("Test Complete.")
+        print("Press [Enter] to take the test again")
+        input("====================================")
 
 # Don't forget to call main()!
 main()
