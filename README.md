@@ -15,6 +15,30 @@ After you get through all 46 Hirakana, the test will ask if you want to try agai
 
 Simply close the window to exit.
 
+# Sample Test
+
+```
+BEGINNING TEST
+====================================
+This test will show you the Romaji of a Hirakana character.
+Please write it in Hiragana and Katakana.
+Press [Enter] to move to the next question.
+====================================
+Hirakana 1: mi
+  (h) (k)   み   ミ
+Hirakana 2: yu 
+  (h) (k)   ゆ   ユ
+...
+Hirakana 45: te
+  (h) (k)   て   テ
+Hirakana 46: ro
+  (h) (k)   ろ   ロ
+====================================
+Test Complete.
+Press [Enter] to take the test again
+====================================
+```
+
 # How to use
 
 1. get python
